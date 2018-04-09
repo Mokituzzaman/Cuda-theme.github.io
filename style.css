@@ -1,0 +1,260 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+header{
+	color:#FFF;
+	background: #87509C;
+	min-height: 620px;
+}
+
+header a.logo{
+	padding: 20px;
+	background: rgba(255,255,255,0.1);
+	-o-transition: -o-transform ease-out 0.1s, background 0.2s;
+	-ms-transition: -ms-transform ease-out 0.1s, background 0.2s;
+	-webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+	transition: transform ease-out 0.1s, background 0.2s;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	padding: 30px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	
+}
+header a.logo:hover {
+	background: rgba(255,255,255,0.05);
+	-o-transform: scale(0.93);
+	-webkit-transform: scale(0.93);
+	-ms-transform: scale(0.93);
+	transform: scale(0.93);
+}
+header a{
+	text-decoration: none;
+}
+header h1{
+	margin-top: 80px;
+
+}
+header ul li.active{
+	background: #643A79;
+	border-radius: 5px;
+}
+header ul li {
+	padding: 0 5px;
+
+	
+}
+header ul li a:hover{
+	padding: 5px;
+	background: #643A79;
+	border-radius: 5px;
+	transition-duration: .5s;
+	
+}
+header .btn{
+	margin-top: 100px;
+	background: #8c7ae6;
+	padding: 10px 50px;
+	border-right: 2px solid #643A79;
+	border-bottom: 3px solid #643A79;
+	
+}
+header .btn:hover{
+	transition-duration: .6s;
+	background: #643A79;
+	padding: 10px 50px;
+	overflow: hidden;
+	border: 2px solid #8c7ae6;
+
+}
+.service-area hr{
+	margin-bottom: 25px;
+	width: 100px;
+	border-bottom: 4px solid #14A58C;
+}
+header	
+h1,h2,h3,h4{
+	font-weight: 600;
+}
+p{
+	font-weight: 400;
+	font-size: 14px;
+}
+.service-area{
+	background: #17C2A4;
+}
+ h2{
+	padding: 60px 0  10px 0;
+	letter-spacing: 1.5px;
+}
+
+
+.service-area img {
+	width:45%;
+	height: 110px;
+}
+.team-area hr{
+	margin-bottom: 25px;
+	width: 100px;
+	border-bottom: 4px solid  #BDD1DF;
+}
+.team-area{
+	background: #E7F1F8;
+}
+
+.team-area img{
+	width:60%;
+	height: auto;
+}
+.social-icon a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 15px;
+	border-radius: 60px;
+	background: #BDD1DF;
+	padding: 4px 8px;
+	margin: 0 2px;
+	border-bottom: 3px solid #FFF;
+}
+.social-icon a:hover {
+	color:#273c75;
+	background: #7f8fa6;
+	border-radius:50px ;
+	border-bottom: 3px solid #7f8fa6;
+}
+.skill-area hr{
+	margin-bottom: 25px;
+	width: 100px;
+	border-bottom: 4px solid  #BDD1DF;
+
+}
+.portfolio-area{
+	background: #FFDD99;
+}
+.portfolio-area img{
+	width: 75%;
+	height:auto;
+}
+.portfolio-area hr{
+	border-bottom: 4px solid #E5C37F;
+	width: 100px;
+
+}
+.portfolio-area a {
+	font-weight: 700;
+	text-decoration: none;
+	color: #4b4b4b;
+	margin:0 6px;
+	border-bottom: 2px solid #FFF;
+	padding: 7px 25px;
+	background: #E5C37F;
+	border-radius: 5px;
+	transition-duration: .50s;
+
+}
+.portfolio-area a:hover {
+
+	text-decoration: none;
+	color: black;
+	margin:0 6px;
+	padding: 7px 25px;
+	background: #FFF;
+	border-radius: 5px;
+	
+
+}
+.portfolio-area button{
+	margin-top: 50px;
+	background:#78e08f;
+	padding: 10px 50px;
+	border-right: 2px solid #E5C689;
+	border-bottom: 3px solid #E5C689;
+}
+.portfolio-area button:hover{
+	margin-top: 50px;
+	background:#ccae62;
+	padding: 10px 50px;
+	border-right: 2px solid #ccae62;
+	border-bottom: 3px solid #ccae62;
+}
+.clint-area{
+	background: #fd79a8;
+}
+.clint-area hr{
+	border-bottom: 4px solid #E7F1F8;
+	width: 100px;
+}
+.clint-area img{
+	float: left;
+	width: 100px;
+	height: auto;
+}
+.clint-area .comment{
+	width: 80%;
+}
+.clint-area small{
+	color: #fed330;
+}
+.contact-area {
+	background:#3498db;
+}
+.contact-area hr{
+	border-bottom: 3px solid #2980b9;
+	width: 100px; 
+}
+.contact-area form {
+	width: 70%;
+	margin: auto;
+	font-color:#FFFFFF;
+
+}
+.contact-area form input.form-control{
+	padding: 16px ;
+	background: #2980b9;
+	border: none;
+}
+.contact-area textarea{
+	margin-top: 25px;
+	height: 100px;
+	background:#2980b9;
+	color: #2980b9;
+	border: none;
+}
+.contact-area .btn{
+	margin-top: 50px;
+	padding: 10px 25px;
+	color: #FFF;
+	background: #1abc9c;
+	border-right: 1px solid #FFF;
+	border-bottom: 2px solid #FFF; 
+	transition-duration: .6s;
+}
+.contact-area .btn:hover{
+	color: #FFF;
+	background: #2980b9;
+	
+	border: 2px solid #2980b9; 
+}
+footer{
+	background:#2980b9; 
+}
+footer a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+	border-radius: 60px;
+	background: #3498DB;
+	padding: 5px 12px;
+	margin: 7px 15px;
+	border-bottom: 3px solid #FFF;
+	transition-duration: .6s;
+
+}
+footer a:hover {
+	color:#273c75;
+	background: #2980B9;
+	border-radius:50px ;
+	border: 1px solid #fff;
+
+}
